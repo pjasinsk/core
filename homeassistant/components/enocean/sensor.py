@@ -298,9 +298,7 @@ class EnOceanMACOmTronic(EnOceanSensor):
     """Representation of an EnOcean window MACO mTronic sensor.
 
     EEPs (EnOcean Equipment Profiles):
-    - A5-97-00 (Window sensor / MACO mTronic)
-    - A5-98-00
-    - A5-99-00
+    - A5-14-0A (Window sensor / MACO mTronic)
     """
 
     def value_changed(self, packet):
